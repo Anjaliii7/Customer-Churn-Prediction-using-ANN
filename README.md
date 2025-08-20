@@ -9,11 +9,11 @@ Customer churn is when customers stop doing business with a company.This project
 * Monitor model performance using TensorBoard.
 
 🛠️ Technologies Used
-Python 3.x
-TensorFlow / Keras – building and training ANN
-Pandas & NumPy – data handling
-Scikit-learn – preprocessing & feature selection
-TensorBoard – monitoring training performance
+* Python 3.x
+* TensorFlow / Keras – building and training ANN
+* Pandas & NumPy – data handling
+* Scikit-learn – preprocessing & feature selection
+* TensorBoard – monitoring training performance
 
 📊 Dataset-
 Source: Customer Churn Dataset : Kaggle
@@ -53,12 +53,12 @@ Features:
 4. Monitoring with TensorBoard
 
 📈 Results -
-1. ANN successfully trained to classify churn with good accuracy.
-2. Feature selection improved training efficiency by reducing irrelevant inputs.
-3. TensorBoard provided clear insights into training/validation performance.
+* ANN successfully trained to classify churn with good accuracy.
+* Feature selection improved training efficiency by reducing irrelevant inputs.
+* TensorBoard provided clear insights into training/validation performance.
 
 👩‍💻 Author
 
 Anjali Jhanjhariya
 📍 B.Tech CSE (3nd Year) | Aspiring AI & ML Engineer.
-💡 Exploring deep learning, model building, and practical ML applications
+ Exploring deep learning, model building, and practical ML applications
