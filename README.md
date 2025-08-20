@@ -3,11 +3,13 @@ Project Overview -
 
 Customer churn is when customers stop doing business with a company.This project aims to predict customer churn using an Artificial Neural Network (ANN).The model was trained after applying feature selection techniques, and performance was tracked using Keras and TensorBoard for better visualization and monitoring of training progress.
 
+
 🎯 Objectives -
 * Perform feature selection to identify the most important predictors of churn.
 * Build and train an ANN model for binary classification (Churn / No Churn).
 * Monitor model performance using TensorBoard.
 * Interactive deployed using Streamlit for real-time predictions.
+
 
 🛠️ Technologies Used
 * Python 3.x
@@ -16,6 +18,7 @@ Customer churn is when customers stop doing business with a company.This project
 * Scikit-learn – preprocessing & feature selection
 * TensorBoard – monitoring training performance
 * Streamlit
+
 
 📊 Dataset-
 Source: Customer Churn Dataset : Kaggle
@@ -38,6 +41,7 @@ Features:
 4. Target Variable
   * Exited → Churn status (0 = stayed, 1 = churned).
 
+
 ⚙️ Methodology
 1. Feature Selection
   * Removed irrelevant/redundant columns.
@@ -54,10 +58,12 @@ Features:
   * Optimizer: Adam | Loss: Binary Crossentropy | Metric: Accuracy.
 4. Monitoring with TensorBoard
 
+
 📈 Results -
 * ANN successfully trained to classify churn with good accuracy.
 * Feature selection improved training efficiency by reducing irrelevant inputs.
 * TensorBoard provided clear insights into training/validation performance.
+
 
 👩‍💻 Author
 
