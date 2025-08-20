@@ -7,6 +7,7 @@ Customer churn is when customers stop doing business with a company.This project
 * Perform feature selection to identify the most important predictors of churn.
 * Build and train an ANN model for binary classification (Churn / No Churn).
 * Monitor model performance using TensorBoard.
+* Interactive deployed using Streamlit for real-time predictions.
 
 🛠️ Technologies Used
 * Python 3.x
@@ -14,6 +15,7 @@ Customer churn is when customers stop doing business with a company.This project
 * Pandas & NumPy – data handling
 * Scikit-learn – preprocessing & feature selection
 * TensorBoard – monitoring training performance
+* Streamlit
 
 📊 Dataset-
 Source: Customer Churn Dataset : Kaggle
