@@ -4,14 +4,14 @@ Project Overview -
 This project predicts whether a customer is likely to churn (leave the company) based on their profile and behavior data. It uses an Artificial Neural Network (ANN) built with Keras/TensorFlow, with TensorBoard integration for monitoring training, and is deployed using Streamlit for an interactive user interface.
 
 ---
-##🎯 Objectives - ##
+🎯 Objectives - 
 * Perform feature selection to identify the most important predictors of churn.
 * Build and train an ANN model for binary classification (Churn / No Churn).
 * Monitor model performance using TensorBoard.
 * Interactive deployed using Streamlit for real-time predictions.
 ---
 
-##🛠️ Technologies Used  ##
+🛠️ Technologies Used -  
 * Python 3.x
 * TensorFlow / Keras – building and training ANN
 * Pandas & NumPy – data handling
@@ -20,7 +20,7 @@ This project predicts whether a customer is likely to churn (leave the company) 
 * Streamlit
 ---
 
-##📊 Dataset-
+📊 Dataset-
 Source: Customer Churn Dataset : Kaggle
 Features: 
 1. Customer Demographics
@@ -42,7 +42,7 @@ Features:
   * Exited → Churn status (0 = stayed, 1 = churned).
 ---
 
-##⚙️ Methodology
+⚙️ Methodology
 1. Feature Selection
   * Removed irrelevant/redundant columns.
   * Applied statistical methods to identify most impactful features.
@@ -59,13 +59,13 @@ Features:
 4. Monitoring with TensorBoard
 ---
 
-##📈 Results -
+📈 Results -
 * ANN successfully trained to classify churn with good accuracy.
 * Feature selection improved training efficiency by reducing irrelevant inputs.
 * TensorBoard provided clear insights into training/validation performance.
 ---
 
-##👩‍💻 Author
+👩‍💻 Author
 
 Anjali Jhanjhariya
 📍 B.Tech CSE (3nd Year) | Aspiring AI & ML Engineer.
