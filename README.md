@@ -56,9 +56,9 @@ Features:
 4. Monitoring with TensorBoard
 
 📈 Results -
-ANN successfully trained to classify churn with good accuracy.
-Feature selection improved training efficiency by reducing irrelevant inputs.
-TensorBoard provided clear insights into training/validation performance.
+1. ANN successfully trained to classify churn with good accuracy.
+2. Feature selection improved training efficiency by reducing irrelevant inputs.
+3. TensorBoard provided clear insights into training/validation performance.
 
 👩‍💻 Author
 
