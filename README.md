@@ -18,41 +18,38 @@ TensorBoard – monitoring training performance
 📊 Dataset-
 Source: Customer Churn Dataset : Kaggle
 Features: 
-         1. Customer Demographics
-            CustomerId → Unique ID (not used for modeling).
-            Surname / Name → Identifier (not useful for prediction).
-            Age → Older/younger customers may have different churn behavior.
-            Gender → Male / Female differences in churn rate.
-            Geography (Country/Region) → Region-specific churn patterns.
-
-         2. Account Information
-            Tenure → How long the customer has stayed (loyalty factor).
-            Balance → Account balance; very low/high balance might affect churn.
-            EstimatedSalary → Income level can influence churn.
-            HasCrCard → Whether customer has a credit card (0/1).
-            IsActiveMember → Customer activity status, a strong churn indicator.
-
-         3. Banking / Service Usage
-         NumOfProducts → Number of products/services used (more products = less churn chance).
-         CreditScore → Higher credit score → more trusted customer.
-
-         4. Target Variable
-         Exited → Churn status (0 = stayed, 1 = churned).
+1. Customer Demographics
+  * CustomerId → Unique ID (not used for modeling).
+  * Surname / Name → Identifier (not useful for prediction).
+  * Age → Older/younger customers may have different churn behavior.
+  * Gender → Male / Female differences in churn rate.
+  * Geography (Country/Region) → Region-specific churn patterns.
+ 2. Account Information
+  * Tenure → How long the customer has stayed (loyalty factor).
+  * Balance → Account balance; very low/high balance might affect churn.
+  * EstimatedSalary → Income level can influence churn.
+  * HasCrCard → Whether customer has a credit card (0/1).
+  * IsActiveMember → Customer activity status, a strong churn indicator.
+3. Banking / Service Usage
+  * NumOfProducts → Number of products/services used (more products = less churn chance).
+  * CreditScore → Higher credit score → more trusted customer.
+4. Target Variable
+  * Exited → Churn status (0 = stayed, 1 = churned).
 
 ⚙️ Methodology
 1. Feature Selection
-  Removed irrelevant/redundant columns.
-  Applied statistical methods to identify most impactful features.
+  * Removed irrelevant/redundant columns.
+  * Applied statistical methods to identify most impactful features.
 2. Data Preprocessing
-  Handled missing values.
-  Encoded categorical variables.
-  Scaled numerical features.
-  Split dataset into training and testing sets.
+  * Handled missing values.
+  * Encoded categorical variables.
+  * Scaled numerical features.
+  * Split dataset into training and testing sets.
 3. Model Training (ANN)
-  Input layer matching selected features.
-  Hidden layers with ReLU activation.
-  Output layer with Sigmoid activation for binary classification.
-  Optimizer: Adam | Loss: Binary Crossentropy | Metric: Accuracy.
+  * Input layer matching selected features.
+  * Hidden layers with ReLU activation.
+  * Output layer with Sigmoid activation for binary classification.
+  * Optimizer: Adam | Loss: Binary Crossentropy | Metric: Accuracy.
 4. Monitoring with TensorBoard
 
 📈 Results -
@@ -63,5 +60,5 @@ Features:
 👩‍💻 Author
 
 Anjali Jhanjhariya
-📍 B.Tech CSE (3nd Year) | Aspiring AI & ML Engineer
+📍 B.Tech CSE (3nd Year) | Aspiring AI & ML Engineer.
 💡 Exploring deep learning, model building, and practical ML applications
