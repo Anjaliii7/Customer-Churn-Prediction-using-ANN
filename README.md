@@ -65,6 +65,10 @@ Features:
 * TensorBoard provided clear insights into training/validation performance.
 ---
 
+## 🚀 Deployment
+You can try the app live here: https://customer-churn-prediction-using-ann-68pvs6xj4odb4gndqqg3by.streamlit.app/
+---
+
 👩‍💻 Author
 
 Anjali Jhanjhariya
